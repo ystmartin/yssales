@@ -1,0 +1,77 @@
+div {
+    width: 100%;
+    margin: 0 auto;
+    /* border:5px #FFAC55 solid; */
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    /* border:5px #FFAC55 solid; */
+    text-align: center;
+  }
+  table thead {
+    background-color: orange;
+    font-size:16px ;
+    /* border:5px #FFAC55 solid; */
+  }
+  th {
+    border:2px white solid;
+  }
+  table tbody tr:nth-of-type(even) {
+    background-color: lightblue;
+  }
+  table tbody {
+    display: block;
+    height: 800px;
+    overflow-y: scroll;
+  }
+   /* tr設定寬度，並採用table佈局 */
+   table tr {
+    width: 100%;
+    display: table;
+    font-size: 16px;
+  }
+  table tr td{
+    font-size: 16px;
+    border: 1px solid white;
+
+  }
+  table tbody {
+    /* firefox */
+    scrollbar-width: none;
+    /* ie10+ */
+    -ms-overflow-style: none;
+  }
+  /* chrome safari */
+  table tbody::-webkit-scrollbar {
+    display: none;
+  }
+  #head01{
+    background-color: #01c9e3;
+    font-size: 16px;
+    font-weight: 700;
+    height: 20px;
+    color: white;
+    border:2px white solid;
+  }
+  #head02{
+    background-color: #ff9800;
+    font-size: 16px;
+    font-weight: 700;
+    height: 20px;
+    border:2px white solid;
+  }
+  #head03{
+    background-color: #d6d6d6;
+    font-size: 16px;
+    border:2px white solid;
+  }
+
+  #head04{
+    font-size: 16px;
+    border:2px white solid;
+    
+    word-break: break-all; 
+
+  }

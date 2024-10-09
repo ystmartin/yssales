@@ -1,0 +1,135 @@
+table {
+    width:100%;
+  }
+  th{
+   
+    background-color: #01c9e3;
+    font-size: 40px;
+    font-weight: 700;
+    height: 70px;
+    color: white;
+  
+  }
+  #head01{
+    background-color: #ff9800;
+    font-size: 40px;
+    font-weight: 700;
+    height: 70px;
+    color: black;
+  
+  }
+  #head02{
+    font-size: 40px;
+    font-weight: 700;
+  
+  }
+  #group_head{
+    background-color: #d6d6d6;
+  }
+  #group_list{
+    background-color: #d6d6d6;
+  }
+  #keyword_head{
+    background-color: #d6d6d6;
+  }
+  #keyword_list{
+    background-color: #d6d6d6;
+  }
+  #tour_head{
+    background-color: #d6d6d6;
+    font-size: 40px;
+  }
+  #tour_list{
+    
+    font-size: 40px;
+    border-collapse: collapse;
+    /* border:2px black  solid ; */
+        }
+  #push_head{
+          background-color:  #d6d6d6;
+          font-size: 40px;
+  }
+
+  /* #fixed01{ 
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    width: 100%;
+  }*/
+  #head01_table{
+    display:table;
+    width:100%;
+    background-color: aqua;
+    font-size: large;
+    border: 10px black;
+    
+  }
+  #head01_tr{
+    display:table-row;
+    border: 10px black;
+    
+  }
+  #head01_td{
+    display:table-cell;
+    font-size: 40px;
+    height: 80px;
+
+    
+  }
+  #head02_table{
+    display:table;
+    width:100%;
+    background-color: rgb(255, 102, 0);
+  
+    
+  }
+  #head02_tr{
+    display:table-row;
+
+    
+  }
+  #head02_td{
+    display:table-cell;
+    font-size: 40px;
+    height: 80px;
+
+    
+  }
+  #head03_table{
+    display:table;
+    width:100%;
+    background-color: rgb(167, 162, 159);
+    font-size: large;
+    border: 10px black;
+    
+  }
+  #head03_tr{
+    display:table-row;
+    border: 10px black;
+    
+  }
+  #head03_td{
+    display:table-cell;
+    font-size: 40px;
+    height: 80px;
+
+    
+  }
+
+  #head04_table{
+    display:table;
+    width:100%;
+    
+  }
+  #head04_tr{
+    display:table-row;
+
+    
+  }
+  #head04_td{
+    display:table-cell;
+    font-size: 40px;
+    height: 80px;
+
+    
+  }
